@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "atcoder-tools"
+version = "0.1.0"
+description = "AtCoder tools"
+authors = ["Satoshi Warita <div9851.tech@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+markdownify = "^0.12.1"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
